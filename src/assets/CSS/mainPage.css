@@ -1,0 +1,112 @@
+.MainBlock {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.BannerBlock {
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.BannerBlock button {
+    width: 25px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50px;
+    background-color: #EFEFEF;
+    color: grey;
+}
+
+.BannerDivider ul {
+    display: flex;
+    position: relative;
+    top: 10px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.BannerDivider li {
+    width: 40px;
+    height: 5px;
+    background-color: grey;
+    margin: 0 5px;
+}
+
+.BannerDivider li:active {
+    background-color: orange;
+}
+
+.ProductBlock h1, .ProductBlock h2, .ProductBlock li {
+    font-weight: bold;
+}
+
+.ProductBlock h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ProductBlock li {
+    margin-top: 10px;
+    list-style: none;
+}
+
+.ProductBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProductItemCard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.ProductItemCard ul {
+    font-weight: bold;
+    font-size: 24px;
+    list-style-type: none;
+    margin: 0;
+    width: 100%;
+}
+
+.ItemCard {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: start;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.ItemCard img {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: grey;
+    margin-top: auto;
+}
+
+
+.ItemCard h4 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.ItemPrice {
+    color: #ff6600;
+    font-weight: bold;
+    margin-top: 10px;
+}
