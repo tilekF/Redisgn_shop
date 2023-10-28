@@ -56,3 +56,7 @@ input {
 input:focus {
   outline: none;
 }
+
+img {
+  width: 100px;
+}

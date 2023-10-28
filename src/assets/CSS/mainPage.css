@@ -30,6 +30,7 @@
 }
 
 .BannerDivider li {
+    border-radius: 50px;
     width: 40px;
     height: 5px;
     background-color: grey;
